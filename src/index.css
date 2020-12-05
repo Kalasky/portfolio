@@ -1,0 +1,233 @@
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Nunito", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2c2f33;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.footer {
+  font-size: 0.8em;
+  text-align: left;
+}
+
+.footerCommunity,
+.footerServer {
+  border-left: 1px solid rgb(19, 19, 19);
+  padding-bottom: 15px;
+}
+
+/* Aligns the text from left to center in footer when browser window is 992px wide or less */
+@media only screen and (max-width: 992px) {
+  .footer {
+    text-align: center;
+  }
+}
+
+/* moves left borders in footer when browser window is 992px wide or less */
+@media only screen and (max-width: 992px) {
+  .footerCommunity,
+  .footerServer {
+    border-left: none;
+  }
+}
+
+.reviewSection {
+  padding: "80px";
+}
+
+@media only screen and (max-width: 992px) {
+  .cartText,
+  .playfulText {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .cartText,
+  .playfulText {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .playfulText {
+    float: left;
+  }
+}
+
+.greenSectionLeft,
+.greenSectionRight {
+  padding: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .greenSectionLeft,
+  .greenSectionRight {
+    padding: 2rem;
+  }
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.nav-link {
+  margin-left: 20px;
+}
+
+/* 768px wide or less */
+@media only screen and (max-width: 768px) {
+  .nav-link {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .ptop {
+    padding-top: 30px;
+  }
+}
+
+.deckptop {
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 992px) {
+  .deckptop {
+    padding-top: 30px;
+  }
+}
+
+.cardHome {
+  height: 100%;
+  background-color: #23272a;
+  /* width: 15rem; */
+  /* margin: 0 auto; */
+}
+
+/* @media only screen and (max-width: 992px) {
+  .music {
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .music {
+    width: auto;
+  }
+} */
+
+@media only screen and (min-width: 576px) {
+  .landingHeader {
+    padding-left: 15px;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .landingHeader {
+    padding: 0 15px 0 15px;
+  }
+}
+
+/* Bob */
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
