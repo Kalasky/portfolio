@@ -23,7 +23,7 @@ const Footer = () => {
               application for a small startup mainly using Flutter and Firebase.
               I am passionate to begin working to further enhance my
               understanding of Git, working with like minded individuals, and to
-              further devlop my programming skills as a whole.
+              further develop my programming skills as a whole.
             </p>
 
             {/* <a
