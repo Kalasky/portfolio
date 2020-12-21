@@ -19,11 +19,11 @@ const App = () => {
   return (
     <div className="App">
       <img
+        className="wave"
         style={{
           top: "-10%",
           position: "absolute",
           zIndex: "-1",
-          height: "100%",
         }}
         src={waveOne}
         alt="coolness"
