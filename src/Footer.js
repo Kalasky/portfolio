@@ -110,16 +110,7 @@ const Footer = () => {
               <p style={{ marginBottom: "0.2rem" }}>Forums</p>
             </a> */}
           </Col>
-          <Col md={12}>
-            <p
-              style={{
-                color: "gray",
-                marginTop: "30px",
-              }}
-            >
-              Copyright © 2020
-            </p>
-          </Col>
+
           <Col md={12}>
             <p
               style={{
