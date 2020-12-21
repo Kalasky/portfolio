@@ -10,6 +10,7 @@ import blip from "./images/blip.svg";
 import warzonebot from "./images/warzonebot.svg";
 import amazon from "./images/amazon_cli.svg";
 import liri from "./images/liri.svg";
+import flutter from "./images/flutter.svg";
 import waveOne from "./images/curved-bg.svg";
 // import waveTwo from "./images/curved-bg.svg";
 import ReadMoreReact from "read-more-react";
@@ -225,6 +226,55 @@ const App = () => {
                       <a
                         role="button"
                         href="https://github.com/Kalasky/liri-node-app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </div>
+            </Col>
+
+            <Col lg={4} md={6} sm={12}>
+              <div className="ptop" style={{ height: "100%" }}>
+                <Card className="shadow cardHome hvr-float">
+                  <Card.Body>
+                    <Card.Title>
+                      <h2 style={{ fontWeight: "600", textAlign: "center" }}>
+                        Ski Lodge Mobile App
+                      </h2>
+                    </Card.Title>
+                    <div style={{ textAlign: "center", padding: "40px" }}>
+                      {/* <FontAwesomeIcon icon={faBalanceScale} size="6x" /> */}
+                      <Card.Img
+                        variant="top"
+                        src={flutter}
+                        style={{
+                          height: "130px",
+                          width: "auto",
+                          maxWidth: "100%",
+                        }}
+                      />
+                    </div>
+
+                    <Card.Text style={{ textAlign: "center" }}>
+                      <ReadMoreReact
+                        text={
+                          "Mobile application for Ski China Peak. Handles payments like events, cabins, and a lot more. With a wide array of information scraped from their desktop website, making the info easy to access. Mobile application for Ski China Peak. Handles payments like events, cabins, and a lot more. With a wide array of information scraped from their desktop website, making the info easy to access."
+                        }
+                        min={100}
+                        ideal={200}
+                        max={400}
+                        readMoreText={"Click here to read more"}
+                      />
+                    </Card.Text>
+                    <div style={{ textAlign: "center", padding: "30px" }}>
+                      <a
+                        role="button"
+                        href="https://github.com/Kalasky/ski-china-peak"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary"
