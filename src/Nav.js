@@ -5,7 +5,7 @@ import logo from "./images/hk-logo.png";
 const Header = () => {
   return (
     <Navbar bg="light" expand="md" style={{ fontSize: "18px" }}>
-      <Navbar.Brand href="/">
+      <Navbar.Brand>
         <img
           src={logo}
           width="64"
