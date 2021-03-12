@@ -116,7 +116,7 @@ const App = () => {
                     <Card.Text style={{ textAlign: "center" }}>
                       <ReadMoreReact
                         text={
-                          "Users can track their Call of Duty account and the bot will automatically assign a role based off of their kill death ratio and win loss ratio. All user data will be scanned every 8 hours, if their stats change the users roles will be automatically updated accordingly. I also implemented authentication. Before a user can track themselves they will first be prompted to login. The bot will read all of the user’s account data preventing them from submitting a fake identity."
+                          "Users can track their Call of Duty account under full authentication and the bot will automatically assign a Discord role based off of their kill death ratio and win loss ratio. All user data will be scanned every 8 hours, if a users stats change the roles will be updated accordingly."
                         }
                         min={100}
                         ideal={200}
@@ -127,12 +127,12 @@ const App = () => {
                     <div style={{ textAlign: "center", padding: "30px" }}>
                       <a
                         role="button"
-                        href="https://github.com/Kalasky/trackme"
+                        href="https://discord.com/api/oauth2/authorize?client_id=694957509470847046&permissions=2416299072&scope=bot"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary"
                       >
-                        Visit
+                        Invite
                       </a>
                     </div>
                   </Card.Body>
