@@ -116,7 +116,7 @@ const App = () => {
                     <Card.Text style={{ textAlign: "center" }}>
                       <ReadMoreReact
                         text={
-                          "Users can track their Call of Duty account under full authentication and the bot will automatically assign a Discord role based off of their kill death ratio and win loss ratio. All user data will be scanned every 8 hours, if a users stats change the roles will be updated accordingly."
+                          "(MongoDB, JavaScript, Heroku, Git, Discord API) Users can track their Call of Duty account under full authentication and the bot will automatically assign a Discord role based off of their kill death ratio and win loss ratio. All user data will be scanned every 8 hours, if a users stats change the roles will be updated accordingly."
                         }
                         min={100}
                         ideal={200}
