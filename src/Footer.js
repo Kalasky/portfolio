@@ -18,7 +18,7 @@ const Footer = () => {
               <strong>ABOUT ME</strong>
             </h5>
             <p style={{ color: "gray" }}>
-              Hey there! I'm Robert Kalasky and I am an aspiring developer
+              Hello there! I'm Robert Kalasky and I am an aspiring developer
               craving to hit the workforce. I am currenly working on a mobile
               application for a small startup mainly using Flutter and Firebase.
               I am passionate to begin working to further enhance my

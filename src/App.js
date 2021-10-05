@@ -8,8 +8,10 @@ import "./index.css";
 import contact from "./images/contact_me.svg";
 import blip from "./images/blip.svg";
 import warzonebot from "./images/warzonebot.svg";
-import amazon from "./images/amazon_cli.svg";
-import liri from "./images/liri.svg";
+// import amazon from "./images/amazon_cli.svg";
+import supplymenow from "./images/delivery.svg";
+// import liri from "./images/liri.svg";
+import kolor from "./images/kolor_logo.jpg";
 import flutter from "./images/flutter.svg";
 import waveOne from "./images/curved-bg.svg";
 // import waveTwo from "./images/curved-bg.svg";
@@ -34,7 +36,7 @@ const App = () => {
         <Row>
           <div className="landingHeader">
             <h1 style={{ marginTop: "40px", fontWeight: "600" }}>
-              Hey, I'm Robert Kalasky!
+              Hello, I'm Robert Kalasky!
             </h1>
             <p style={{ fontSize: "18px", maxWidth: "45rem" }}>
               Check out my projects listed below as well as my socials listed in
@@ -70,7 +72,7 @@ const App = () => {
                       {/* <FontAwesomeIcon icon={faBalanceScaleLeft} size="3x" /> */}
                     </div>
                     <Card.Text style={{ textAlign: "center" }}>
-                      Using geolocation provided by Google Maps API, a user can
+                      Using geolocation provided by Google Maps API. Repository: https://github.com/Kalasky/google-map-marker-insert -- A user can
                       add a blip on the map for everyone to see. Locations
                       submitted by users are stored in a json object.
                     </Card.Text>
@@ -116,7 +118,7 @@ const App = () => {
                     <Card.Text style={{ textAlign: "center" }}>
                       <ReadMoreReact
                         text={
-                          "(MongoDB, JavaScript, Heroku, Git, Discord API) Users can track their Call of Duty account under full authentication and the bot will automatically assign a Discord role based off of their kill death ratio and win loss ratio. All user data will be scanned every 8 hours, if a users stats change the roles will be updated accordingly."
+                          "(MongoDB, JavaScript, Heroku, Git, Discord API) Users can track their Call of Duty account under full authentication, the bot will automatically assign a Discord role based off of their kill death ratio and win loss ratio. All user data will be scanned every 8 hours, if a users stats change the roles will be updated accordingly."
                         }
                         min={100}
                         ideal={200}
@@ -127,56 +129,7 @@ const App = () => {
                     <div style={{ textAlign: "center", padding: "30px" }}>
                       <a
                         role="button"
-                        href="https://discord.com/api/oauth2/authorize?client_id=694957509470847046&permissions=2416299072&scope=bot"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn btn-primary"
-                      >
-                        Invite
-                      </a>
-                    </div>
-                  </Card.Body>
-                </Card>
-              </div>
-            </Col>
-
-            <Col lg={4} md={6} sm={12}>
-              <div className="ptop" style={{ height: "100%" }}>
-                <Card className="shadow cardHome hvr-float">
-                  <Card.Body>
-                    <Card.Title>
-                      <h2 style={{ fontWeight: "600", textAlign: "center" }}>
-                        Amazon-CLI
-                      </h2>
-                    </Card.Title>
-                    <div style={{ textAlign: "center", padding: "40px" }}>
-                      {/* <FontAwesomeIcon icon={faBalanceScale} size="6x" /> */}
-                      <Card.Img
-                        variant="top"
-                        src={amazon}
-                        style={{
-                          height: "130px",
-                          width: "auto",
-                          maxWidth: "100%",
-                        }}
-                      />
-                    </div>
-
-                    <Card.Text style={{ textAlign: "center" }}>
-                      <ReadMoreReact
-                        text={
-                          "Amazon-like storefront application that will take in orders from customers and deplete stock from the store's inventory. Amazon-CLI will then ask the user which product ID the user wishes to purchase. Amazon-CLI will ask how many units of the item the user would like to purchase, then automatically calculates the total price."
-                        }
-                        min={100}
-                        ideal={200}
-                        max={400}
-                        readMoreText={"Click here to read more"}
-                      />
-                    </Card.Text>
-                    <div style={{ textAlign: "center", padding: "30px" }}>
-                      <a
-                        role="button"
-                        href="https://github.com/Kalasky/Amazon-CLI"
+                        href="https://github.com/Kalasky/trackme"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary"
@@ -195,14 +148,14 @@ const App = () => {
                   <Card.Body>
                     <Card.Title>
                       <h2 style={{ fontWeight: "600", textAlign: "center" }}>
-                        LIRI
+                        Supply Me Now
                       </h2>
                     </Card.Title>
                     <div style={{ textAlign: "center", padding: "40px" }}>
                       {/* <FontAwesomeIcon icon={faBalanceScale} size="6x" /> */}
                       <Card.Img
                         variant="top"
-                        src={liri}
+                        src={supplymenow}
                         style={{
                           height: "130px",
                           width: "auto",
@@ -213,9 +166,7 @@ const App = () => {
 
                     <Card.Text style={{ textAlign: "center" }}>
                       <ReadMoreReact
-                        text={
-                          "LIRI (Language Interpretation and Recognition Interface) is a command line node app that takes in parameters and gives you back data. Hey, Liri here. I access API's to search for your favorite movies, bands, artists, and songs. I also provide users with extra detail such as the album the song is from, a preview link of the song, movie ratings, movie plots, venue dates and locations of your favorite artists/bands and much more!"
-                        }
+                        text={"(React, React-Bootstrap) Frontend website showcasing a construction delivery company. Repository: https://github.com/Kalasky/construction-delivery/tree/master/src"}
                         min={100}
                         ideal={200}
                         max={400}
@@ -225,7 +176,54 @@ const App = () => {
                     <div style={{ textAlign: "center", padding: "30px" }}>
                       <a
                         role="button"
-                        href="https://github.com/Kalasky/liri-node-app"
+                        href="https://supplymenow.com/#/premium"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary"
+                      >
+                        Visit
+                      </a>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </div>
+            </Col>
+
+            <Col lg={4} md={6} sm={12}>
+              <div className="ptop" style={{ height: "100%" }}>
+                <Card className="shadow cardHome hvr-float">
+                  <Card.Body>
+                    <Card.Title>
+                      <h2 style={{ fontWeight: "600", textAlign: "center" }}>
+                        Kolor
+                      </h2>
+                    </Card.Title>
+                    <div style={{ textAlign: "center", padding: "40px" }}>
+                      {/* <FontAwesomeIcon icon={faBalanceScale} size="6x" /> */}
+                      <Card.Img
+                        variant="top"
+                        src={kolor}
+                        style={{
+                          height: "130px",
+                          width: "auto",
+                          maxWidth: "100%",
+                        }}
+                      />
+                    </div>
+
+                    <Card.Text style={{ textAlign: "center" }}>
+                      <ReadMoreReact
+                        text={"(Mongo Atlas, Mongoose, Node.js, Discord.js, Twitch API) Color hierarchy system integrated with Twitch and Discord. Made a user experience that was manual and monotonous for hundreds of members in a community, automatic and easy to use. Kolor Bot showcase here: Feel free to skim through the video. https://www.youtube.com/watch?v=sWOD6XEQCPg"}
+                        min={100}
+                        ideal={200}
+                        max={400}
+                        readMoreText={"Click here to read more"}
+                      />
+                    </Card.Text>
+                    <div style={{ textAlign: "center", padding: "30px" }}>
+                      <a
+                        role="button"
+                        href="https://github.com/Kalasky/gregbot"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-primary"
